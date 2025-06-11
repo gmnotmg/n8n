@@ -1,0 +1,13 @@
+app = "n8n-cloud-lang"
+primary_region = "sin"
+
+[env]
+  N8N_BASIC_AUTH_ACTIVE = "true"
+  N8N_BASIC_AUTH_USER = "admin"
+  N8N_BASIC_AUTH_PASSWORD = "Jinseyeon99!"
+  N8N_HOST = "n8n-cloud-lang.fly.dev"
+  WEBHOOK_URL = "https://n8n-cloud-lang.fly.dev"
+
+[mounts]
+  source = "n8n_data"
+  destination = "/home/node/.n8n"
